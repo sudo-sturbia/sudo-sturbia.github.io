@@ -1,0 +1,181 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-justify: inter-word;
+
+    color: #393e46;
+    background-color: #f7f7f7;
+}
+
+/*
+ * Top-bar styling.
+ */
+.top-bar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+
+    height: 80px;
+    width: 90%;
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+    background-color: #f7f7f7;
+}
+
+/* Name. */
+.top-bar > h1 {
+    display: inline-block;
+    min-width: 300px;
+
+    font-size: 35px;
+
+    text-align: center;
+
+    margin: 0px 0px 0px 0px;
+    padding: 25px 0px 10px 0px;
+}
+
+/* Personal links. */
+.top-bar > ul {
+    display: inline-block;
+    white-space: nowrap;
+    text-align: right;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    padding: 45px 100px 10px 0px;
+}
+
+.top-bar > ul > li {
+    display: inline-block;
+    min-width: 70px;
+
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+
+    padding-left: 20px;
+}
+
+.top-bar > ul > li > a {
+    outline: none;
+    text-decoration: none;
+}
+
+.top-bar > ul > li > a:link,
+.top-bar > ul > li > a:visited {
+    color: #393e46;
+}
+
+/*
+ * Content.
+ */
+.content {
+    width: 70%;
+
+    padding-top: 120px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Sub-headings. */
+.content > h2 {
+    margin-top: 0px;
+    padding-top: 50px;
+
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.content > h2 > a {
+    outline: none;
+    text-decoration: none;
+}
+
+.content > h2 > a:link,
+.content > h2 > a:visited {
+    color: #f8b500;
+}
+
+/* Introduction. */
+.content > .intro {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+/* Introduction paragraph. */
+.content > p {
+    font-size: 22px;
+    line-height: 30px;
+
+    margin-bottom: 0px;
+}
+
+/* Education. */
+.content > .education {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Projects. */
+/* Titles. */
+.content .project-title {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+/* Margins. */
+.content > dl > dt {
+    margin-top: 20px;
+}
+
+/* Projects' description paragraphs. */
+.content > dl > dd {
+    font-size: 18px;
+    line-height: 28px;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+}
+
+/* More info paragraph. */
+.content > .more-info {
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    font-size: 20px;
+    line-height: 25px;
+
+    text-align: right;
+}
+
+.content > .more-info > a {
+    outline: none;
+    text-decoration: none;
+}
+
+.content > .more-info > a:link,
+.content > .more-info > a:visited {
+    color: #f8b500;
+}
