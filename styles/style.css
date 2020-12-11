@@ -135,6 +135,17 @@ body {
 }
 
 /* Projects. */
+/* Paragraph link. */
+.content > .projects > a {
+    outline: none;
+    text-decoration: none;
+}
+
+.content > .projects > a:link,
+.content > .projects > a:visited {
+    color: #5c636e;
+}
+
 /* Titles. */
 .content .project-title {
     font-size: 20px;
@@ -150,6 +161,7 @@ body {
 }
 
 /* Projects' description paragraphs. */
+.content .projects,
 .content > dl > dd {
     font-size: 18px;
     line-height: 28px;
