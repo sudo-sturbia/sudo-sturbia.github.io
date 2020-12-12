@@ -147,16 +147,12 @@ body {
 }
 
 /* Titles. */
-.content .project-title {
+.content > dl > dt {
     font-size: 20px;
     line-height: 28px;
     font-weight: bold;
 
     margin-bottom: 5px;
-}
-
-/* Margins. */
-.content > dl > dt {
     margin-top: 20px;
 }
 
