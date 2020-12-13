@@ -135,19 +135,8 @@ body {
 }
 
 /* Projects. */
-/* Paragraph link. */
-.content > .projects > a {
-    outline: none;
-    text-decoration: none;
-}
-
-.content > .projects > a:link,
-.content > .projects > a:visited {
-    color: #5c636e;
-}
-
 /* Titles. */
-.content > dl > dt {
+.content > dl > dt > p {
     font-size: 20px;
     line-height: 28px;
     font-weight: bold;
@@ -156,13 +145,33 @@ body {
     margin-top: 20px;
 }
 
+/* Links. */
+.content > dl > dt > a {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* Paragraph link. */
+.content > dl > dt > a,
+.content > .projects > a {
+    outline: none;
+    text-decoration: none;
+}
+
+.content > dl > dt > a:link,
+.content > dl > dt > a:visited,
+.content > .projects > a:link,
+.content > .projects > a:visited {
+    color: #5c636e;
+}
+
 /* Projects' description paragraphs. */
 .content .projects,
 .content > dl > dd {
     font-size: 18px;
     line-height: 28px;
 
-    margin-top: 8px;
+    margin-top: 0px;
     margin-bottom: 8px;
     margin-left: 0px;
 }
